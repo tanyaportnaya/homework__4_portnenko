@@ -1,0 +1,110 @@
+@font-face{
+    font-family: Roboto, sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+}
+*{
+    font-family: Roboto, sans-serif;
+    box-sizing: border-box;
+}
+.photo{
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 200px;
+}
+.info{
+    border: 5px solid green;
+    padding: 20px;
+    margin: 25px 15px;
+
+}
+.info p{
+    font-weight: 400;
+}
+.info p:first-child{
+    line-height: 2;
+    text-decoration: line-through;
+    font-size: 24px;
+    color: red;
+    text-shadow: grey 2px 4px 1px;
+}
+
+.carousel{ 
+
+    max-width: 1900px;
+   margin: 0 auto;
+}
+.my_project{
+    display: inline-block;
+    position: relative;
+    margin: 20px 0 20px 55px;
+}
+.my_project img{
+    width: 600px;
+    height: 420px;
+}
+.prev, .next{
+    position: absolute;
+    text-align: center;
+    cursor: pointer;
+    top: 50%;
+    width: 25px;
+    height: 25px;
+    background: #a19e9e98;
+    margin-top: -22px;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.945);
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 50%;
+    user-select: none;
+}
+.next {
+    right: 10px;
+ 
+  }
+  .prev{
+      left: 10px;
+  }
+.skills{
+    display: inline-block;
+    margin-left: 45px;
+    width: 42.5%;
+    vertical-align: top;
+
+
+}
+.left {
+    display: inline-block;
+    width: 42.5%;
+    min-width: 100px;
+  
+}
+.right{
+    display: inline-block;
+    width: 42.5%;
+    min-width: 100px;
+    
+}
+.skill{
+    border: 1px solid black;
+    border-radius: 10px;
+    background: rgba(126, 125, 125, 0.747);
+    padding: 15px;
+    width: 150px;
+}
+.text{
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 15px 0 15px;
+    width: 42.5%;
+    border: 3px solid black;
+    padding: 15px;
+  
+}
+.text p{
+    text-decoration: underline overline;
+    line-height: 2.5;
+    font-weight: 600;
+    font-size: 12px;
+}
